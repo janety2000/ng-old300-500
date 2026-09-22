@@ -27,8 +27,8 @@ def _env_int(name, default):
 
 
 BASE_URL     = "https://www.myjobmag.com"
-START_PAGE   = _env_int("START_PAGE", 1001)
-END_PAGE     = _env_int("END_PAGE", 2000)
+START_PAGE   = _env_int("START_PAGE", 320)
+END_PAGE     = _env_int("END_PAGE", 500)
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
